@@ -41,16 +41,16 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     PopularCategories: function PopularCategories() {
-      return __webpack_require__.e(/*! import() | Chunks/Site/Components/PopularCategories */ "Chunks/Site/Components/PopularCategories").then(__webpack_require__.bind(null, /*! ../comonents/Category/PopularCategories */ "./resources/js/site/comonents/Category/PopularCategories.vue"));
+      return __webpack_require__.e(/*! import() */ 5).then(__webpack_require__.bind(null, /*! ../comonents/Category/PopularCategories */ "./resources/js/site/comonents/Category/PopularCategories.vue"));
     },
     CategoriesProducts: function CategoriesProducts() {
-      return __webpack_require__.e(/*! import() | Chunks/Site/Components/CategoriesProducts */ "Chunks/Site/Components/CategoriesProducts").then(__webpack_require__.bind(null, /*! ../comonents/Category/CategoriesProducts */ "./resources/js/site/comonents/Category/CategoriesProducts.vue"));
+      return __webpack_require__.e(/*! import() */ 4).then(__webpack_require__.bind(null, /*! ../comonents/Category/CategoriesProducts */ "./resources/js/site/comonents/Category/CategoriesProducts.vue"));
     },
     ProductsHome: function ProductsHome() {
-      return __webpack_require__.e(/*! import() | Chunks/Site/Components/HomeProducts */ "Chunks/Site/Components/HomeProducts").then(__webpack_require__.bind(null, /*! ../comonents/Product/Products.vue */ "./resources/js/site/comonents/Product/Products.vue"));
+      return __webpack_require__.e(/*! import() */ 13).then(__webpack_require__.bind(null, /*! ../comonents/Product/Products.vue */ "./resources/js/site/comonents/Product/Products.vue"));
     },
     ShopByBrands: function ShopByBrands() {
-      return __webpack_require__.e(/*! import() | Chunks/Site/Components/ShopByBrands */ "Chunks/Site/Components/ShopByBrands").then(__webpack_require__.bind(null, /*! ../comonents/Brand/ShopByBrands */ "./resources/js/site/comonents/Brand/ShopByBrands.vue"));
+      return __webpack_require__.e(/*! import() */ 3).then(__webpack_require__.bind(null, /*! ../comonents/Brand/ShopByBrands */ "./resources/js/site/comonents/Brand/ShopByBrands.vue"));
     }
   },
   computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])("categoriesStoreIndex", ["categories"]))

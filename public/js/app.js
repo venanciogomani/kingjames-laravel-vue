@@ -43,7 +43,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "" + ({"Chunks/Site-Product-slug":"Chunks/Site-Product-slug","Chunks/Site-Settings":"Chunks/Site-Settings","Chunks/Site/404":"Chunks/Site/404","Chunks/Site/Components/AuthModal":"Chunks/Site/Components/AuthModal","Chunks/Site/Router/Login":"Chunks/Site/Router/Login","Chunks/Site/Components/MainApp":"Chunks/Site/Components/MainApp","Chunks/Site/Components/MobileFooter":"Chunks/Site/Components/MobileFooter","Chunks/Site/Components/MobileMenu":"Chunks/Site/Components/MobileMenu","Chunks/Site/Components/MultipleFilter":"Chunks/Site/Components/MultipleFilter","Chunks/Site/Components/Product":"Chunks/Site/Components/Product","Chunks/Site/Components/QuickView":"Chunks/Site/Components/QuickView","Chunks/Site/Components/SortingToolBox":"Chunks/Site/Components/SortingToolBox","Chunks/Site/HomePageRouteContainer":"Chunks/Site/HomePageRouteContainer","Chunks/Site/Router/Carts":"Chunks/Site/Router/Carts","Chunks/Site/Router/Category-slug":"Chunks/Site/Router/Category-slug","Chunks/Site/Router/Compare":"Chunks/Site/Router/Compare","Chunks/Site/Router/HomeDashboard":"Chunks/Site/Router/HomeDashboard","Chunks/Site/Router/Product-slug":"Chunks/Site/Router/Product-slug","Chunks/Site/Router/Products":"Chunks/Site/Router/Products","Chunks/Site/Router/ProductsByBrand-slug":"Chunks/Site/Router/ProductsByBrand-slug","Chunks/Site/Router/Wishlist":"Chunks/Site/Router/Wishlist","Chunks/Site/Main-App-Footer":"Chunks/Site/Main-App-Footer","Chunks/Site/Main-App-Header":"Chunks/Site/Main-App-Header","Chunks/Site/Components/CategoriesProducts":"Chunks/Site/Components/CategoriesProducts","Chunks/Site/Components/HomeProducts":"Chunks/Site/Components/HomeProducts","Chunks/Site/Components/PopularCategories":"Chunks/Site/Components/PopularCategories","Chunks/Site/Components/ShopByBrands":"Chunks/Site/Components/ShopByBrands","Chunks/Site/Components/LanguegeSwitcher":"Chunks/Site/Components/LanguegeSwitcher","Chunks/Site/Components/StickyHeader":"Chunks/Site/Components/StickyHeader","Chunks/Site/Components/CardProduct":"Chunks/Site/Components/CardProduct"}[chunkId]||chunkId) + ".js"
+/******/ 		return __webpack_require__.p + "" + ({"Chunks/Site/Router/Login":"Chunks/Site/Router/Login","Chunks/Site-Product-slug":"Chunks/Site-Product-slug","Chunks/Site-Settings":"Chunks/Site-Settings","Chunks/Site/404":"Chunks/Site/404","Chunks/Site/HomePageRouteContainer":"Chunks/Site/HomePageRouteContainer","Chunks/Site/Router/Carts":"Chunks/Site/Router/Carts","Chunks/Site/Router/Category-slug":"Chunks/Site/Router/Category-slug","Chunks/Site/Router/Compare":"Chunks/Site/Router/Compare","Chunks/Site/Router/HomeDashboard":"Chunks/Site/Router/HomeDashboard","Chunks/Site/Router/Product-slug":"Chunks/Site/Router/Product-slug","Chunks/Site/Router/Products":"Chunks/Site/Router/Products","Chunks/Site/Router/ProductsByBrand-slug":"Chunks/Site/Router/ProductsByBrand-slug","Chunks/Site/Router/Wishlist":"Chunks/Site/Router/Wishlist","Chunks/Site/Components/CardProduct":"Chunks/Site/Components/CardProduct"}[chunkId]||chunkId) + ".js"
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -59299,26 +59299,26 @@ Vue.use(vue_magnifier__WEBPACK_IMPORTED_MODULE_2___default.a);
 
 
 Vue.component('main-app', function () {
-  return __webpack_require__.e(/*! import() | Chunks/Site/Components/MainApp */ "Chunks/Site/Components/MainApp").then(__webpack_require__.bind(null, /*! ./site/comonents/MainApp.vue */ "./resources/js/site/comonents/MainApp.vue"));
+  return __webpack_require__.e(/*! import() */ 9).then(__webpack_require__.bind(null, /*! ./site/comonents/MainApp.vue */ "./resources/js/site/comonents/MainApp.vue"));
 });
 Vue.component('MultipleFilter', function () {
-  return __webpack_require__.e(/*! import() | Chunks/Site/Components/MultipleFilter */ "Chunks/Site/Components/MultipleFilter").then(__webpack_require__.bind(null, /*! ./site/comonents/Filter/MultipleFilter.vue */ "./resources/js/site/comonents/Filter/MultipleFilter.vue"));
+  return __webpack_require__.e(/*! import() */ 7).then(__webpack_require__.bind(null, /*! ./site/comonents/Filter/MultipleFilter.vue */ "./resources/js/site/comonents/Filter/MultipleFilter.vue"));
 });
 Vue.component('SortingToolBox', function () {
-  return __webpack_require__.e(/*! import() | Chunks/Site/Components/SortingToolBox */ "Chunks/Site/Components/SortingToolBox").then(__webpack_require__.bind(null, /*! ./site/comonents/Filter/SortingToolBox.vue */ "./resources/js/site/comonents/Filter/SortingToolBox.vue"));
+  return __webpack_require__.e(/*! import() */ 8).then(__webpack_require__.bind(null, /*! ./site/comonents/Filter/SortingToolBox.vue */ "./resources/js/site/comonents/Filter/SortingToolBox.vue"));
 });
 Vue.component('QuickView', function () {
-  return __webpack_require__.e(/*! import() | Chunks/Site/Components/QuickView */ "Chunks/Site/Components/QuickView").then(__webpack_require__.bind(null, /*! ./site/comonents/Product/QuickView.vue */ "./resources/js/site/comonents/Product/QuickView.vue"));
+  return __webpack_require__.e(/*! import() */ 2).then(__webpack_require__.bind(null, /*! ./site/comonents/Product/QuickView.vue */ "./resources/js/site/comonents/Product/QuickView.vue"));
 });
 Vue.component('Product', function () {
-  return __webpack_require__.e(/*! import() | Chunks/Site/Components/Product */ "Chunks/Site/Components/Product").then(__webpack_require__.bind(null, /*! ./site/comonents/Product/Product.vue */ "./resources/js/site/comonents/Product/Product.vue"));
+  return __webpack_require__.e(/*! import() */ 1).then(__webpack_require__.bind(null, /*! ./site/comonents/Product/Product.vue */ "./resources/js/site/comonents/Product/Product.vue"));
 });
 Vue.component('carousel', __webpack_require__(/*! vue-owl-carousel */ "./node_modules/vue-owl-carousel/dist/vue-owl-carousel.js"));
 Vue.component('mobile-menu', function () {
-  return __webpack_require__.e(/*! import() | Chunks/Site/Components/MobileMenu */ "Chunks/Site/Components/MobileMenu").then(__webpack_require__.bind(null, /*! ./site/comonents/MobileMenu.vue */ "./resources/js/site/comonents/MobileMenu.vue"));
+  return __webpack_require__.e(/*! import() */ 10).then(__webpack_require__.bind(null, /*! ./site/comonents/MobileMenu.vue */ "./resources/js/site/comonents/MobileMenu.vue"));
 });
 Vue.component('mobile-footer', function () {
-  return __webpack_require__.e(/*! import() | Chunks/Site/Components/MobileFooter */ "Chunks/Site/Components/MobileFooter").then(__webpack_require__.bind(null, /*! ./site/comonents/MobileFooter.vue */ "./resources/js/site/comonents/MobileFooter.vue"));
+  return __webpack_require__.e(/*! import() */ 6).then(__webpack_require__.bind(null, /*! ./site/comonents/MobileFooter.vue */ "./resources/js/site/comonents/MobileFooter.vue"));
 });
 var app = new Vue({
   el: '#main-app',
@@ -59616,7 +59616,7 @@ var defaultRoutes = [{
   name: 'Login',
   title: 'Login',
   component: function component() {
-    return Promise.all(/*! import() | Chunks/Site/Router/Login */[__webpack_require__.e("Chunks/Site/Components/AuthModal"), __webpack_require__.e("Chunks/Site/Router/Login")]).then(__webpack_require__.bind(null, /*! ./site/comonents/Login.vue */ "./resources/js/site/comonents/Login.vue"));
+    return Promise.all(/*! import() | Chunks/Site/Router/Login */[__webpack_require__.e(0), __webpack_require__.e("Chunks/Site/Router/Login")]).then(__webpack_require__.bind(null, /*! ./site/comonents/Login.vue */ "./resources/js/site/comonents/Login.vue"));
   }
 }, {
   path: '/',
@@ -62019,7 +62019,7 @@ vue__WEBPACK_IMPORTED_MODULE_1___default.a.use(vuex__WEBPACK_IMPORTED_MODULE_2__
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Venancio\OneDrive\Desktop\ecommerce-laravel-vue\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Venancio\Desktop\Proj\kingjames-laravel-vue\resources\js\app.js */"./resources/js/app.js");
 
 
 /***/ })
