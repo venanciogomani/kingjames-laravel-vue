@@ -16,6 +16,10 @@
 
     php artisan key:generate
 
+    php artisan migrate
+
+    php artisan db:seed --class=DatabaseSeeder
+
     php artisan serve
 ```
 
@@ -37,7 +41,7 @@
 </table>
 
  ## Features
-* #### ;) Backend
+* #### Backend
     * **Caching** 
     *  Authentication : ( *Multi Guard* ) Session based Authentication
     *  **Repository Pattern**
@@ -48,7 +52,7 @@
     *  Scope Filter in Model
     *  ORM for MySQL ( Elequent ORM )
         *  
-* ### :* Frontend:
+* ### Frontend:
     * Frontend Framework : `Vue Js`
     * Library : `IViewUi`, `Vue-owl-carousel`,`VueX`,`Vue-router`,`lodash`,`jQuery`,`axios`
     * `Admin LTE 3` in Admin Panel & Molla Ecommerce Template in Frontend
@@ -57,9 +61,6 @@
     * Light/Dark Theme & Grid/List Layout
     * <u color="red">Code Spliting , Lazy Loading </u>, Less Ajax request
     * 
-
-
-
 ## Roles:
 
 <table>
@@ -96,8 +97,3 @@
         </tr>
     </tbody>
 </table>
-
- ![twitter](https://twitter.com/venanciogomani)
- ![facebook](https://facebook.com/venanciogomani)
- ![instagram](https://instagram.com/venanciogomani)
- ![linkedin](https://www.linkedin.com/in/venancio-gomani-366b9ab1/)
